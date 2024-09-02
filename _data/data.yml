@@ -117,12 +117,12 @@ projects:
     assignments:
       - title: 딜리메이트
         link: "https://github.com/juseungpark97/SemiProject_Introduce"
-        tagline: "퀵서비스 중개 웹사이트"
+        # tagline: ""
         image: "https://raw.githubusercontent.com/juseungpark97/SemiProject_Introduce/main/image/main.png"
 
       - title: 시네마클라우드
         link: "https://github.com/juseungpark97/FinalProject_Introduce"
-        tagline: "인디영화 OTT 웹사이트"
+        # tagline: ""
         image: "https://raw.githubusercontent.com/juseungpark97/FinalProject_Introduce/main/images/mainImage.png"
 
 oss:
@@ -167,26 +167,76 @@ publications:
         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills & Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+  categories:
+    - name: 프론트엔드
+      tools:
+        - name: HTML5
+          image: "https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"
+        
+        - name: CSS3
+          image: "https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"
+        
+        - name: JavaScript
+          image: "https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"
 
-      - name: Javascript & jQuery
-        level: 98%
+        - name: TypeScript
+          image: "https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"
 
-      - name: Angular
-        level: 98%
+        - name: React
+          image: "https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white"
 
-      - name: HTML5 & CSS
-        level: 95%
+    - name: 백엔드
+      tools:
+        - name: Spring Framework
+          image: "https://img.shields.io/badge/Spring%20Framework-6DB33F?style=flat-square&logo=spring&logoColor=white"
+        
+        - name: Spring Boot
+          image: "https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white"
+        
+        - name: JWT
+          image: "https://img.shields.io/badge/JWT-000000?style=flat-square&logo=json-web-tokens&logoColor=white"
 
-      - name: Ruby on Rails
-        level: 85%
+    - name: 데이터베이스
+      tools:
+        - name: OracleDB
+          image: "https://img.shields.io/badge/OracleDB-F80000?style=flat-square&logo=oracle&logoColor=white"
 
-      - name: Sketch & Photoshop
-        level: 60%
+    - name: 개발 환경
+      tools:
+        - name: Java
+          image: "https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"
+        
+        - name: Oracle IDE
+          image: "https://img.shields.io/badge/Oracle%20IDE-FF5722?style=flat-square&logo=oracle&logoColor=white"
+        
+        - name: Spring Tool Suite
+          image: "https://img.shields.io/badge/Spring%20Tool%20Suite-6DB33F?style=flat-square&logo=spring&logoColor=white"
+        
+        - name: Node.js
+          image: "https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"
+
+    - name: 서버
+      tools:
+        - name: Tomcat
+          image: "https://img.shields.io/badge/Tomcat-v9.0-F8DC75?style=flat-square&logo=apache-tomcat&logoColor=black"
+        
+        - name: Amazon EC2
+          image: "https://img.shields.io/badge/Amazon%20EC2-FF9900?style=flat-square&logo=amazon-ec2&logoColor=white"
+        
+        - name: Amazon S3
+          image: "https://img.shields.io/badge/Amazon%20S3-569A31?style=flat-square&logo=amazon-s3&logoColor=white"
+        
+        - name: Amazon RDS
+          image: "https://img.shields.io/badge/Amazon%20RDS-527FFF?style=flat-square&logo=amazon-rds&logoColor=white"
+    - name: API
+      tools:
+        - name: Kakao API
+          image: "https://img.shields.io/badge/Kakao%20API-FFCD00?style=flat-square&logo=kakao&logoColor=black"
+
+        - name: Google SMS API
+          image: "https://img.shields.io/badge/Google%20SMS%20API-4285F4?style=flat-square&logo=google&logoColor=white"
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
