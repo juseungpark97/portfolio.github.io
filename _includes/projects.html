@@ -27,6 +27,14 @@
         {% endif %}
       </span>
 
+      {% if project.image %}
+      <div class="project-image">
+        <a href="{{ project.link }}" target="_blank">
+          <img src="{{ project.image }}" alt="{{ project.title }} image" style="max-width: 100%; height: auto; margin-top: 10px;">
+        </a>
+      </div>
+      {% endif %}
+
       {% if project.tagline %}
       - <span class="project-tagline">{{ project.tagline }}</span>
       {% endif %}
