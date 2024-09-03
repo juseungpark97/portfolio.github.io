@@ -1,5 +1,5 @@
-{% assign career-profile = site.data.data.career-profile %}
-{% if career-profile %}
+{% assign career_profile = site.data.data.career-profile %}
+{% if career_profile %}
 <section class="section summary-section">
 
   <h2 class="section-title">
@@ -7,11 +7,12 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-user fa-stack-1x fa-inverse"></i>
     </span>
-    {{ career-profile.title }}
+    {{ career_profile.title }}
   </h2>
 
-  <div class="summary">
-    {{ career-profile.summary | markdownify }}
+  <!-- 인라인 스타일로 줄바꿈 유지와 간격 조정 -->
+  <div class="summary" style="white-space: pre-line; margin-top: 0.5rem; line-height: 0;">
+    {{ career_profile.summary | markdownify }}
   </div><!--//summary-->
     
 </section><!--//section-->

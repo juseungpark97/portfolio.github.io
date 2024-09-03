@@ -32,7 +32,8 @@
     </div><!--//meta-->
 
     {% if experience.details %}
-    <div class="details">
+    <!-- 인라인 스타일로 줄바꿈 유지 적용 -->
+    <div class="details" style="white-space: pre-line; margin-top: 0.5rem; line-height: 0">
       {{ experience.details | markdownify }}
     </div><!--//details-->
     {% endif %}
