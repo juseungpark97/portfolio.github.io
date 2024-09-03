@@ -15,7 +15,15 @@
     <div class="meta">
 
       <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
+        <h3 class="job-title">
+          {{ experience.role }}
+          {% if experience.details_link %}
+          <!-- GitHub 아이콘과 링크 추가 -->
+          <a href="{{ experience.details_link }}" target="_blank" style="margin-left: 10px;">
+            <i class="fab fa-github"></i>
+          </a>
+          {% endif %}
+        </h3>
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
@@ -34,4 +42,3 @@
 
 </section><!--//section-->
 {% endif %}
-
