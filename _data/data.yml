@@ -10,7 +10,7 @@ sidebar:
     # Profile information
     name: 박주승
     tagline: 백엔드 개발자
-    avatar: profile  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: parkjuseung0313@gmail.com
@@ -112,18 +112,17 @@ experiences:
 
 projects:
     title: Projects
-    intro: 
-      웹 프로젝트, 웹 크롤링 프로젝트
+    intro: 웹 프로젝트, 웹 크롤링 프로젝트
     assignments:
       - title: 딜리메이트
         link: "https://github.com/juseungpark97/SemiProject_Introduce"
-        # tagline: ""
         image: "https://raw.githubusercontent.com/juseungpark97/SemiProject_Introduce/main/image/main.png"
+        tagline: 사용자 친화적 인터페이스를 갖춘 퀵서비스 중개 서비스 플랫폼
 
       - title: 시네마클라우드
         link: "https://github.com/juseungpark97/FinalProject_Introduce"
-        # tagline: ""
         image: "https://raw.githubusercontent.com/juseungpark97/FinalProject_Introduce/main/images/mainImage.png"
+        tagline: 인디 영화, 저예산 영화를 제공하는 클라우드 기반 웹 OTT 사이트
 
 oss:
     title: OSS Contributions
@@ -167,7 +166,7 @@ publications:
         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-  title: Skills & Proficiency
+  title: Skills
 
   categories:
     - name: 프론트엔드
