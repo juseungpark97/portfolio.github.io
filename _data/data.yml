@@ -129,6 +129,11 @@ projects:
         image: "https://raw.githubusercontent.com/juseungpark97/FinalProject_Introduce/main/images/mainImage.png"
         tagline: 인디 영화, 저예산 영화를 제공하는 클라우드 기반 웹 OTT 사이트
 
+      - title: 파이썬토이프로젝트
+        link: "https://github.com/juseungpark97/crawlerProject"
+        image: "https://raw.githubusercontent.com/juseungpark97/crawlerProject/main/PYWC.png"
+        tagline: 파이썬 웹 크롤러 프로젝트
+
 oss:
     title: OSS Contributions
     intro: >
